@@ -4,7 +4,10 @@ import Navigation from "./Page/Navingation";
 
 function App() {
   return (
-    <div className="App">
+    <div
+      style={{ backgroundColor: "#D1D6DA", height: "1000px" }}
+      className="App"
+    >
       <Navigation />
     </div>
   );

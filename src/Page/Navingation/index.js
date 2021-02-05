@@ -4,12 +4,13 @@ import LoginPage from "./../LoginPage";
 import VeryifyOTP from "./../VerifyOTP";
 import ResturentList from "./../RestaurentList";
 import Resturent from "./../Resturent";
+import DesignPage from "./../Design";
 
 const Navigation = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={LoginPage}></Route>
+        <Route exact path="/" component={DesignPage}></Route>
         <Route path="/verifyotp" component={VeryifyOTP}></Route>
         <Route path="/resturentlist" component={ResturentList}></Route>
         <Route path="/resturent" component={Resturent}></Route>

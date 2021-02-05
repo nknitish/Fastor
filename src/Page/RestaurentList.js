@@ -26,7 +26,7 @@ const VeryifyOTP = () => {
 
     axios(config)
       .then(function (response) {
-        console.log(response.data);
+        console.log("resturent List", response.data);
         setData(response.data);
         setLoading(false);
       })
